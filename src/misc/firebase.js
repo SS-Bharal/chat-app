@@ -16,15 +16,7 @@ const config = {
   messagingSenderId: process.env.MESSAGINGSENDERID ,
   appId: process.env.APPID ,
 };
-// const config = {
-//   apiKey: 'AIzaSyAKGRssxY4OW9um6RlSbbQ1Fh_lgdWfoPs',
-//   authDomain: 'chat-web-app-4ee4c.firebaseapp.com',
-//   databaseURL: 'https://chat-web-app-4ee4c.firebaseio.com',
-//   projectId: 'chat-web-app-4ee4c',
-//   storageBucket: 'chat-web-app-4ee4c.appspot.com',
-//   messagingSenderId: '167319830934',
-//   appId: '1:167319830934:web:419e220f9fdcd15ea25db7',
-// };
+
 
 export const fcmVapidKey =
   'BLs_I-HQyrAuUJJh8H3U0vtHGhVhXLMqoVoomeNL90GMKm0-o7sSoN9CJYRiBAVz-Yi7ZAni8mKateJfDwodTnw';
