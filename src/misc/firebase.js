@@ -8,13 +8,13 @@ import 'firebase/functions';
 import { isLocalhost } from './helpers';
 
 const config = {
-  apiKey: "AIzaSyDjkB49HcjUjGnWjuC890V8LuiKeaksJeA",
-  authDomain: "chat-web-app-a41b0.firebaseapp.com",
-  databaseURL: "https://chat-web-app-a41b0-default-rtdb.firebaseio.com",
-  projectId: "chat-web-app-a41b0",
-  storageBucket: "chat-web-app-a41b0.appspot.com",
-  messagingSenderId: "262093263503",
-  appId: "1:262093263503:web:9e48956b595c41c23bd6fa",
+  apiKey: process.env.APIKEY ,
+  authDomain: process.env.AUTHDOMAIN ,
+  databaseURL: process.env.DATABASEURL ,
+  projectId: process.env.PROJECTID ,
+  storageBucket: process.env.STORAGEBUCKET ,
+  messagingSenderId: process.env.MESSAGINGSENDERID ,
+  appId: process.env.APPID ,
 };
 // const config = {
 //   apiKey: 'AIzaSyAKGRssxY4OW9um6RlSbbQ1Fh_lgdWfoPs',
