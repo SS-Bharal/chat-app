@@ -61,9 +61,9 @@ const SendFcmBtnModal = () => {
 
   return (
     <>
-      <Button appearance="primary" size="xs" onClick={open}>
+      {/* <Button appearance="primary" size="xs" onClick={open}>
         <Icon icon="podcast" /> Broadcast message
-      </Button>
+      </Button> */}
 
       <Modal show={isOpen} onHide={close}>
         <Modal.Header>

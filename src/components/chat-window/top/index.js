@@ -32,7 +32,7 @@ const Top = () => {
         </h4>
 
         <ButtonToolbar className="ws-nowrap">
-          <AskFcmBtnModal />
+          {/* <AskFcmBtnModal /> */}
           {isAdmin && <EditRoomBtnDrawer />}
         </ButtonToolbar>
       </div>
