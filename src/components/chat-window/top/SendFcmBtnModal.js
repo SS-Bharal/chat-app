@@ -2,7 +2,7 @@ import React, { useState, useCallback, useRef } from 'react';
 import { useParams } from 'react-router';
 import {
   Button,
-  Icon,
+  // Icon,
   Modal,
   Form,
   ControlLabel,
@@ -28,7 +28,8 @@ const INITIAL_FORM = {
 
 const SendFcmBtnModal = () => {
   const { chatId } = useParams();
-  const { isOpen, open, close } = useModalState();
+  const { isOpen,close } = useModalState();
+  // const { isOpen, open, close } = useModalState();
 
   const [formValue, setFormValue] = useState(INITIAL_FORM);
   const [isLoading, setIsLoading] = useState(false);
